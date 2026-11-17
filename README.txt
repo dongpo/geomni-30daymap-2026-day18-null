@@ -1,5 +1,5 @@
 Day18 — NULL｜連線的空白，還是資料的空白？
-私人審稿專案。Facebook文案尚未批准，未啟用GitHub Pages。
+公開專案（依使用者授權）。Facebook文案尚未批准，未啟用GitHub Pages。
 
 開啟地圖：在專案目錄執行 python3 -m http.server 8000，瀏覽 http://localhost:8000。
 HTML與本機資料俱全，FAO涵蓋背景需連網讀取官方WMTS；失敗會在介面提示，不能判為無涵蓋。
