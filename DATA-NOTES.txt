@@ -20,3 +20,5 @@ https://data.gov.tw/dataset/7442
 
 技術：Leaflet、Python、osmium、Shapely。FAO背景需要網路，其他顯示資料本機保存。原始資料QA見evidence/roads-qa.json。
 歷史AIS檔案與程式僅供追溯，不是本版地圖圖層；仍遵循Global Fishing Watch CC BY-NC 4.0，不移除其原有署名與授權。舊版文案已封存於archives/sea-comparison-v3，不再作為目前敘事。
+
+顯示範圍修訂：以國土測繪中心22縣市界合併為陸域遮罩，僅呈現臺灣本島與離島，包括金門、馬祖與澎湖；中國大陸輪廓不載入，遮罩外涵蓋資料不顯示。這是圖面範圍裁切，不是把範圍外判定為未涵蓋，也不更改FAO原始資料。自然地球陸地檔僅歷史保留，本版不載入。

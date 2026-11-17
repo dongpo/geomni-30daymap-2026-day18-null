@@ -1,0 +1,11 @@
+{
+  "counties": 22,
+  "land_valid": true,
+  "mask_valid": true,
+  "includes": [
+    "金門縣",
+    "連江縣",
+    "澎湖縣"
+  ],
+  "operation": "world-minus-union-of-taiwan-county-polygons; visual only"
+}
