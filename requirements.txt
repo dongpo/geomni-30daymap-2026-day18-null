@@ -1,0 +1,4 @@
+numpy==2.4.6
+lerc==4.0.1
+Pillow==12.1.0
+shapely==2.1.2

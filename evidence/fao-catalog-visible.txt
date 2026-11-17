@@ -1,0 +1,747 @@
+- text: 
+- link:
+  - /url: http://www.fao.org/
+- button:
+- textbox:
+  - /placeholder: Search for locations
+- button:
+  - img: 
+  - generic: Explore Data
+- button:
+  - img: 
+  - generic: Upload
+- generic: Map
+- button:
+- button:
+- list:
+  - button:
+  - generic: UN Country Boundaries of the World
+  - button:
+  - button:
+  - generic: Place Labels
+  - button:
+  - button:
+  - generic: Place Labels
+  - button:
+  - button:
+  - generic: UN Country Boundaries of the World
+  - button:
+- button:
+  - text: Show Workbench
+- complementary:
+  - generic: Loading the map, please wait...
+  - link:
+    - /url: http://www.fao.org/home/en/
+  - link:
+    - /url: https://www.maptiler.com/
+  - link:
+    - /url: https://www.fao.org/contact-us/terms/en/
+    - text: © FAO
+  - link:
+    - /url: https://data.apps.fao.org/static/disclaimers/disclaimer.html
+    - text: Disclaimer
+  - text: •
+  - link:
+    - /url: https://cesium.com/pricing/
+    - text: Upgrade for commercial use.
+- button:
+  - generic: Lat
+  - generic: Lon
+  - generic: Elev
+- generic: 1000 km
+- heading [level=1]
+- button:
+- list:
+  - button:
+    - text: Analysis
+  - button:
+    - text: Story
+  - button:
+    - text: Map
+  - button:
+    - text: Share / Print
+  - button:
+    - text: English
+  - button:
+    - text: Help
+  - button: Login
+- list:
+  - button:
+  - button:
+  - button:
+- button:
+- button:
+- button:
+- button:
+- button:
+  - generic: Give Feedback
+- list
+- heading [level=4]: Feedback
+- button:
+- paragraph: We would love to hear from you!
+- generic: Your name (optional)
+- textbox
+- text: Email address (optional)
+- emphasis: We can't follow up without it!
+- textbox
+- text: Feedback Type
+- emphasis: This will help us resolve the issue quicker
+- generic: Select Type
+- textbox
+- generic: Comment or question
+- textbox
+- button:
+  - text: Share my map view with FAO Hand-in-Hand developers This helps us to troubleshoot issues by letting us see what you're seeing
+- button: Cancel
+- button: Send
+- button:
+  - generic: "\"\""
+  - text: has been added to My data
+- dialog [active]:
+  - navigation "Main":
+    - list:
+      - generic "Home":
+        - img: 
+      - img: 
+      - generic "Home":
+        - img: 
+      - generic "Search Results":
+        - paragraph:
+          - generic: Search Results
+      - img: 
+      - generic "Search Results":
+        - img: 
+      - generic "Search Results - mobile":
+        - paragraph:
+          - generic: Search Results - mobile
+      - img: 
+      - generic "Search Results - mobile":
+        - img: 
+  - switch "New look" [checked]
+  - generic: New look
+  - generic "Toggle dark/light appearance":
+    - img: 
+  - textbox "search in FAO Hand-in-Hand": mobile
+  - img: 
+  - img: 
+  - img: 
+  - button:
+    - img: 
+  - generic "100 search results found":
+    - img: 
+    - generic: Reset
+  - generic "100 search results found": 100 Results
+  - generic: Access to information
+  - button "Add":
+    - img: 
+    - generic: Add
+  - generic: wms
+  - generic: Average Percentage Change in Community Mobility (From Feb 2020 - Country)
+  - button "Add":
+    - img: 
+    - generic: Add
+  - generic: csv
+  - generic: Communication
+  - generic: Group
+  - button "Open Quick View":
+    - img: 
+  - generic: "Crop Processing Final Location: Sugar Cane (Guatemala - ~ 500 m)"
+  - button "Add":
+    - img: 
+    - generic: Add
+  - generic: wms
+  - generic: "Crop Processing Final Location: Sugar Cane (Malawi - ~ 500m)"
+  - button "Add":
+    - img: 
+    - generic: Add
+  - generic: wms
+  - generic: "Crop Processing Final Location: Sugar Cane (Pakistan - ~ 500m)"
+  - button "Add":
+    - img: 
+    - generic: Add
+  - generic: wms
+  - generic: "Crop Processing Final Location: Sugar Cane (Uganda - ~ 500m)"
+  - button "Add":
+    - img: 
+    - generic: Add
+  - generic: wms
+  - generic: "Crop Processing Final Location: Sugarcane (Sudan - ~ 500m)"
+  - button "Add":
+    - img: 
+    - generic: Add
+  - generic: wms
+  - generic: "Crop Storage Final Location: Aggregated Production (Ghana - ~1km) V2"
+  - button "Add":
+    - img: 
+    - generic: Add
+  - generic: wms
+  - generic: "Crop Storage Final Location: Aggregated Production (Kenya - ~1km) V2"
+  - button "Add":
+    - img: 
+    - generic: Add
+  - generic: wms
+  - generic: "Crop Storage Final Location: Banana (Angola - ~ 500m)"
+  - button "Add":
+    - img: 
+    - generic: Add
+  - generic: wms
+  - generic: "Crop Storage Final Location: Bananas (Guatemala - ~ 500 m)"
+  - button "Add":
+    - img: 
+    - generic: Add
+  - generic: wms
+  - generic: "Crop Storage Final Location: Bananas (Yemen - ~ 1km)"
+  - button "Add":
+    - img: 
+    - generic: Add
+  - generic: wms
+  - generic: "Crop Storage Final Location: Beans (Djibouti - ~ 500 m)"
+  - button "Add":
+    - img: 
+    - generic: Add
+  - generic: wmts
+  - generic: "Crop Storage Final Location: Beans (Kenya - ~ 1Km)"
+  - button "Add":
+    - img: 
+    - generic: Add
+  - generic: wms
+  - generic: "Crop Storage Final Location: Beans (Mauritania - ~ 500 m)"
+  - button "Add":
+    - img: 
+    - generic: Add
+  - generic: wms
+  - generic: "Crop Storage Final Location: Cassava (Angola - ~ 500m)"
+  - button "Add":
+    - img: 
+    - generic: Add
+  - generic: wms
+  - generic: "Crop Storage Final Location: Cassava (Cameroon - ~ 500m)"
+  - button "Add":
+    - img: 
+    - generic: Add
+  - generic: wms
+  - generic: "Crop Storage Final Location: Cassava (Gabon - ~ 500 m)"
+  - button "Add":
+    - img: 
+    - generic: Add
+  - generic: wms
+  - generic: "Crop Storage Final Location: Cassava (Guinea - ~ 500 m)"
+  - button "Add":
+    - img: 
+    - generic: Add
+  - generic: wms
+  - generic: "Crop Storage Final Location: Cassava (Kenya - ~ 1Km)"
+  - button "Add":
+    - img: 
+    - generic: Add
+  - generic: wms
+  - generic: "Crop Storage Final Location: Cassava (Malawi - ~ 500m)"
+  - button "Add":
+    - img: 
+    - generic: Add
+  - generic: wms
+  - generic: "Crop Storage Final Location: Cassava (Tanzania - ~ 1Km)"
+  - button "Add":
+    - img: 
+    - generic: Add
+  - generic: wms
+  - generic: "Crop Storage Final Location: Cassava (Togo - ~ 500 m)"
+  - button "Add":
+    - img: 
+    - generic: Add
+  - generic: wms
+  - generic: "Crop Storage Final Location: Cassava (Uganda - ~ 500m)"
+  - button "Add":
+    - img: 
+    - generic: Add
+  - generic: wms
+  - generic: "Crop Storage Final Location: Cereal (South Sudan - ~ 500m)"
+  - button "Add":
+    - img: 
+    - generic: Add
+  - generic: wmts
+  - generic: "Crop Storage Final Location: Cereals (Rwanda - ~ 500 m)"
+  - button "Add":
+    - img: 
+    - generic: Add
+  - generic: wms
+  - generic: "Crop Storage Final Location: Cocoa (Cameroon - ~ 500m)"
+  - button "Add":
+    - img: 
+    - generic: Add
+  - generic: wms
+  - generic: "Crop Storage Final Location: Coffee (Guatemala - ~ 500 m)"
+  - button "Add":
+    - img: 
+    - generic: Add
+  - generic: wms
+  - generic: "Crop Storage Final Location: Coffee (Yemen - ~ 1km)"
+  - button "Add":
+    - img: 
+    - generic: Add
+  - generic: wms
+  - generic: "Crop Storage Final Location: Cotton (Burkina Faso - ~ 500m)"
+  - button "Add":
+    - img: 
+    - generic: Add
+  - generic: wms
+  - generic: "Crop Storage Final Location: Cotton (Chad - ~ 500m)"
+  - button "Add":
+    - img: 
+    - generic: Add
+  - generic: wms
+  - generic: "Crop Storage Final Location: Cotton (Pakistan - ~ 500m)"
+  - button "Add":
+    - img: 
+    - generic: Add
+  - generic: wms
+  - generic: "Crop Storage Final Location: Cotton (Togo - ~ 500 m)"
+  - button "Add":
+    - img: 
+    - generic: Add
+  - generic: wms
+  - generic: "Crop Storage Final Location: Fruits (Angola - ~ 500m)"
+  - button "Add":
+    - img: 
+    - generic: Add
+  - generic: wms
+  - generic: "Crop Storage Final Location: Fruits (Cameroon - ~ 500m)"
+  - button "Add":
+    - img: 
+    - generic: Add
+  - generic: wms
+  - generic: "Crop Storage Final Location: Fruits (Gabon - ~ 500 m)"
+  - button "Add":
+    - img: 
+    - generic: Add
+  - generic: wms
+  - generic: "Crop Storage Final Location: Fruits (Rwanda - ~ 500 m)"
+  - button "Add":
+    - img: 
+    - generic: Add
+  - generic: wms
+  - generic: "Crop Storage Final Location: Fruits (Senegal - ~ 500 m)"
+  - button "Add":
+    - img: 
+    - generic: Add
+  - generic: wms
+  - generic: "Crop Storage Final Location: Fruits (Sierra Leone - ~ 500 m)"
+  - button "Add":
+    - img: 
+    - generic: Add
+  - generic: wmts
+  - generic: "Crop Storage Final Location: Fruits (Tajikistan - ~ 500m)"
+  - button "Add":
+    - img: 
+    - generic: Add
+  - generic: wms
+  - generic: "Crop Storage Final Location: Fruits (Togo - ~ 500 m)"
+  - button "Add":
+    - img: 
+    - generic: Add
+  - generic: wms
+  - generic: "Crop Storage Final Location: Groundnut (Guinea - ~ 500 m)"
+  - button "Add":
+    - img: 
+    - generic: Add
+  - generic: wms
+  - generic: "Crop Storage Final Location: Groundnut (Senegal - ~ 500 m)"
+  - button "Add":
+    - img: 
+    - generic: Add
+  - generic: wms
+  - generic: "Crop Storage Final Location: Groundnut (Sudan - ~ 500m)"
+  - button "Add":
+    - img: 
+    - generic: Add
+  - generic: wms
+  - generic: "Crop Storage Final Location: Groundnut (The Gambia - ~ 500 m)"
+  - button "Add":
+    - img: 
+    - generic: Add
+  - generic: wms
+  - generic: "Crop Storage Final Location: Maize (Angola - ~ 500m)"
+  - button "Add":
+    - img: 
+    - generic: Add
+  - generic: wms
+  - generic: "Crop Storage Final Location: Maize (Bolivia - ~ 500 m)"
+  - button "Add":
+    - img: 
+    - generic: Add
+  - generic: wms
+  - generic: "Crop Storage Final Location: Maize (Cameroon - ~ 500m)"
+  - button "Add":
+    - img: 
+    - generic: Add
+  - generic: wms
+  - generic: "Crop Storage Final Location: Maize (Guatemala - ~ 500 m)"
+  - button "Add":
+    - img: 
+    - generic: Add
+  - generic: wms
+  - generic: "Crop Storage Final Location: Maize (Kenya - ~ 1Km)"
+  - button "Add":
+    - img: 
+    - generic: Add
+  - generic: wms
+  - generic: "Crop Storage Final Location: Maize (Malawi - ~ 500m)"
+  - button "Add":
+    - img: 
+    - generic: Add
+  - generic: wms
+  - generic: "Crop Storage Final Location: Maize (Mauritania - ~ 500 m)"
+  - button "Add":
+    - img: 
+    - generic: Add
+  - generic: wms
+  - generic: "Crop Storage Final Location: Maize (Pakistan - ~ 500m)"
+  - button "Add":
+    - img: 
+    - generic: Add
+  - generic: wms
+  - generic: "Crop Storage Final Location: Maize (Tanzania - ~ 1Km)"
+  - button "Add":
+    - img: 
+    - generic: Add
+  - generic: wms
+  - generic: "Crop Storage Final Location: Maize (The Gambia - ~ 500 m)"
+  - button "Add":
+    - img: 
+    - generic: Add
+  - generic: wms
+  - generic: "Crop Storage Final Location: Maize (Togo - ~ 500 m)"
+  - button "Add":
+    - img: 
+    - generic: Add
+  - generic: wms
+  - generic: "Crop Storage Final Location: Maize (Uganda - ~ 500m)"
+  - button "Add":
+    - img: 
+    - generic: Add
+  - generic: wms
+  - generic: "Crop Storage Final Location: Millet (Senegal - ~ 500 m)"
+  - button "Add":
+    - img: 
+    - generic: Add
+  - generic: wms
+  - generic: "Crop Storage Final Location: Millet (Sudan - ~ 500m)"
+  - button "Add":
+    - img: 
+    - generic: Add
+  - generic: wms
+  - generic: "Crop Storage Final Location: Oil Palm (The Gambia - ~ 500 m)"
+  - button "Add":
+    - img: 
+    - generic: Add
+  - generic: wms
+  - generic: "Crop Storage Final Location: Oilcrops (Senegal - ~ 500 m)"
+  - button "Add":
+    - img: 
+    - generic: Add
+  - generic: wms
+  - generic: "Crop Storage Final Location: Palm Oil (Cameroon - ~ 500m)"
+  - button "Add":
+    - img: 
+    - generic: Add
+  - generic: wms
+  - generic: "Crop Storage Final Location: Pearl Millet (The Gambia - ~ 500 m)"
+  - button "Add":
+    - img: 
+    - generic: Add
+  - generic: wms
+  - generic: "Crop Storage Final Location: Plantain (Cameroon - ~ 500m)"
+  - button "Add":
+    - img: 
+    - generic: Add
+  - generic: wms
+  - generic: "Crop Storage Final Location: Plantain (Gabon - ~ 500 m)"
+  - button "Add":
+    - img: 
+    - generic: Add
+  - generic: wms
+  - generic: "Crop Storage Final Location: Plantain (Uganda - ~ 500m)"
+  - button "Add":
+    - img: 
+    - generic: Add
+  - generic: wms
+  - generic: "Crop Storage Final Location: Potato (Kenya - ~ 1Km)"
+  - button "Add":
+    - img: 
+    - generic: Add
+  - generic: wms
+  - generic: "Crop Storage Final Location: Potatoes (Bolivia - ~ 500 m)"
+  - button "Add":
+    - img: 
+    - generic: Add
+  - generic: wms
+  - generic: "Crop Storage Final Location: Potatoes (Yemen - ~ 1km)"
+  - button "Add":
+    - img: 
+    - generic: Add
+  - generic: wms
+  - generic: "Crop Storage Final Location: Pulses (Burkina Faso - ~ 500m)"
+  - button "Add":
+    - img: 
+    - generic: Add
+  - generic: wms
+  - generic: "Crop Storage Final Location: Rest of Crops (Guinea Bissau - ~ 500m)"
+  - button "Add":
+    - img: 
+    - generic: Add
+  - generic: wms
+  - generic: "Crop Storage Final Location: Rice (Bangladesh - ~ 500m)"
+  - button "Add":
+    - img: 
+    - generic: Add
+  - generic: wms
+  - generic: "Crop Storage Final Location: Rice (Burkina Faso - ~ 500m)"
+  - button "Add":
+    - img: 
+    - generic: Add
+  - generic: wms
+  - generic: "Crop Storage Final Location: Rice (Cameroon - ~ 500m)"
+  - button "Add":
+    - img: 
+    - generic: Add
+  - generic: wms
+  - generic: "Crop Storage Final Location: Rice (Guinea - ~ 500 m)"
+  - button "Add":
+    - img: 
+    - generic: Add
+  - generic: wms
+  - generic: "Crop Storage Final Location: Rice (Guinea Bissau - ~ 500m)"
+  - button "Add":
+    - img: 
+    - generic: Add
+  - generic: wms
+  - generic: "Crop Storage Final Location: Rice (Mauritania - ~ 500 m)"
+  - button "Add":
+    - img: 
+    - generic: Add
+  - generic: wms
+  - generic: "Crop Storage Final Location: Rice (Pakistan - ~ 500m)"
+  - button "Add":
+    - img: 
+    - generic: Add
+  - generic: wms
+  - generic: "Crop Storage Final Location: Rice (Senegal - ~ 500 m)"
+  - button "Add":
+    - img: 
+    - generic: Add
+  - generic: wms
+  - generic: "Crop Storage Final Location: Rice (Tanzania - ~ 1Km)"
+  - button "Add":
+    - img: 
+    - generic: Add
+  - generic: wms
+  - generic: "Crop Storage Final Location: Sorghum (South Sudan - ~ 500m)"
+  - button "Add":
+    - img: 
+    - generic: Add
+  - generic: wmts
+  - generic: "Crop Storage Final Location: Vegetables (Sierra Leone - ~ 500 m)"
+  - button "Add":
+    - img: 
+    - generic: Add
+  - generic: wmts
+  - generic: "Crop Storage Final Location: Wheat (Pakistan - ~ 500m)"
+  - button "Add":
+    - img: 
+    - generic: Add
+  - generic: wms
+  - generic: "Crop Storage Final Location: Wheat (Sudan - ~ 500m)"
+  - button "Add":
+    - img: 
+    - generic: Add
+  - generic: wms
+  - generic: "Crop Storage Final Location: Yams (Gabon - ~ 500 m)"
+  - button "Add":
+    - img: 
+    - generic: Add
+  - generic: wms
+  - generic: "Dairy Processing Final Location: Cattle (Sierra Leone - ~ 500 m)"
+  - button "Add":
+    - img: 
+    - generic: Add
+  - generic: wmts
+  - generic: "Dairy Processing Final Location: Cattle (South Sudan - ~ 500 m)"
+  - button "Add":
+    - img: 
+    - generic: Add
+  - generic: wmts
+  - generic: "Dairy Processing Final Location: Goat (Sierra Leone - ~ 500 m)"
+  - button "Add":
+    - img: 
+    - generic: Add
+  - generic: wmts
+  - generic: "Dairy Processing Final Location: Sheep (Sierra Leone - ~ 500 m)"
+  - button "Add":
+    - img: 
+    - generic: Add
+  - generic: wmts
+  - generic: gin_final_score_oilcrops
+  - button "Add":
+    - img: 
+    - generic: Add
+  - generic: wms
+  - generic: "Intensive closed fish farming systems final location: African Catfish (Chad - ~1km)"
+  - button "Add":
+    - img: 
+    - generic: Add
+  - generic: wmts
+  - generic: "Intensive closed fish farming systems final locations using photovoltaic energy: African Catfish (Central African Republic - ~1km)"
+  - button "Add":
+    - img: 
+    - generic: Add
+  - generic: wmts
+  - generic: Kenya Coffee Digital Marketplace Readiness Indicators (ADM2 Constituency Level)
+  - button "Add":
+    - img: 
+    - generic: Add
+  - generic: csv
+  - generic: Mobile Broadband Coverage (Global - 5 km) - 2026 Release
+  - button "Add":
+    - img: 
+    - generic: Add
+  - generic: wmts
+  - generic: Mobile-cellular subscriptions (Global - National - Annual) - ITU
+  - button "Add":
+    - img: 
+    - generic: Add
+  - generic: csv
+  - generic: Mobile-cellular subscriptions (Global - National - Annual) - ITU
+  - button "Add":
+    - img: 
+    - generic: Add
+  - generic: csv
+  - generic: Novel Coronavirus (COVID-19)
+  - generic: Group
+  - button "Open Quick View":
+    - img: 
+  - generic: Slaughterhouse Final Location (Sierra Leone - ~ 500 m)
+  - button "Add":
+    - img: 
+    - generic: Add
+  - generic: wmts
+  - button "Add to the map":
+    - img: 
+    - generic: Add to the map
+  - link "Leaflet":
+    - /url: https://en.wikipedia.org/wiki/Leaflet_(software)
+  - text: "|"
+  - link "© MapTiler":
+    - /url: https://www.maptiler.com/copyright/
+  - link "© OpenStreetMap contributors":
+    - /url: https://www.openstreetmap.org/copyright
+  - generic: DATA PREVIEW
+  - button "Share your catalogue with others":
+  - heading "Mobile Broadband Coverage (Global - 5 km) - 2026 Release" [level=5]
+  - generic: Description
+  - paragraph: This 2026 release is a derived raster product representing the proportion of each 5 km grid cell covered by mobile broadband service. It was produced from the original approximately 260 m binary mobile broadband coverage raster compiled from GSMA Mobile Coverage Explorer and OpenCellID-based coverage information.
+  - paragraph: The source raster was converted to a binary 1/0 grid and resampled to 5 km using average resampling in EPSG:3857. Output values range from 0 to 1, where 0 indicates no detected coverage, 1 indicates full coverage, and intermediate values indicate partial coverage within the 5 km cell. The derived no-data value is 0
+  - paragraph: Mobile Coverage is released annually in January each year. The latest data source release is named 2026. Any operator data received up to the end of the year 2025 is included in this release.
+  - paragraph:
+    - strong: "Data creation:"
+    - text: 2025-12-31
+  - paragraph:
+    - strong: "Supplemental Information:"
+  - paragraph: "No data value: 0"
+  - paragraph: "Unit : class"
+  - paragraph: "Map code : MBC-2026-5km"
+  - paragraph: Class - Caption
+  - paragraph: 1 - Coverage
+  - paragraph:
+    - text: GSMA Intelligence provides the industry’s most comprehensive mobile network coverage data, sourced directly from operators. This global raster dataset visually represents mobile network coverage, offering an accurate and up-to-date view of network availability worldwide. More information on GMSA's Network Coverage Maps at
+    - link "https://www.gsma.com/coverage/#457":
+      - /url: https://www.gsma.com/coverage/#457
+  - paragraph:
+    - strong: "Citation:"
+  - paragraph: "When using the Coverage Map Data and any other materials, content and data received from GSMA, You must refer to GSMA Intelligence as the source (“Citations”) as follows: (a) All Citations must be accurate, quoted verbatim, and/or duplicated without being manipulated, adapted, paraphrased or summarised and they must not be used out of context; (i) quotes or extracts must not endorse any of Your service(s) or product(s), or criticise a third party’s product service, or be used to play one third party off against another; (ii) a GSMA Coverage Maps Service copyright statement (© GSMA Coverage Maps Service 2026) must be affixed to all screen images derived or generated from Coverage Data (graphics, diagrams, graphs and/or tables); and (iii) research is proprietary to GSMA and subject to copyright and property protections."
+  - paragraph:
+    - strong: "Contact points:"
+  - paragraph:
+    - text: "Resource Contact:"
+    - link "Nelson Ribeiro":
+      - /url: mailto:nelson.rosasribeirofilho@fao.org
+  - paragraph:
+    - text: "Metadata Contact:"
+    - link "FAO-Data":
+      - /url: mailto:fao-data@fao.org
+  - paragraph:
+    - strong: "Data lineage:"
+  - paragraph: "Operator submissions might be an incomplete data source. OpenCellID database (OCI) data is used to fill the gaps where network operators have not yet submitted coverage data, but OCI has several limitations:"
+  - list:
+    - paragraph: Values for the radius of coverage from tower locations are estimated;
+    - paragraph: Tower locations are derived from data collected from mobile phone users and so the coverage tends to be concentrated along routes and built-up areas;
+    - paragraph: Only a small number of Android or Blackberry apps collect data and so the coverage tends to be concentrated in countries where certain apps are popular.
+    - paragraph: The accuracy of tower locations is dependent on multiple measurements to the same tower. The tower’s location is the average position of mobile phone users receiving signals from that tower
+    - paragraph: The derived coverage does not take account of obstructing factors such as terrain variations. Because of these limitations, the OCI data should be viewed as an approximation only.
+  - paragraph:
+    - text: Further information on OpenCelliD tower locations can be found at their web pages at
+    - link "http://wiki.opencellid.org/wiki/What_is_OpenCellID":
+      - /url: http://wiki.opencellid.org/wiki/What_is_OpenCellID
+    - text: and
+    - link "http://wiki.opencellid.org/wiki/Glossary":
+      - /url: http://wiki.opencellid.org/wiki/Glossary
+  - paragraph:
+    - strong:
+      - text: Use of Data for
+      - link "gsma.com/coverage":
+        - /url: http://gsma.com/coverage
+  - paragraph: GSMA manages the collection and verification of coverage map data from GSMA Members and other operators and uses software to convert the raw coverage map data into coverage map data suitable for the web mapping application. Utilising an established digital world map as reference, the web mapping application displays coverage information for any part of the world. Coverage maps are compiled from the combination of coverage map data created from radio planning or GIS data provided by GSMA Members and the digital world maps provided by MapBox.
+  - paragraph:
+    - strong: "Resource constraints:"
+  - paragraph: GSMA retains exclusive ownership of the Coverage Data and FAO is granted, in respect of both the Annual Licence and the Perpetual Licence, a worldwide, non-exclusive, non-transferable, non-sublicensable (except to Permitted Affiliates), revocable and limited license (for the Term only) to use, by and through the Authorised Users, the Coverage Data within the Coverage Maps Service and use the materials, content and data You receive from GSMA.
+  - paragraph:
+    - strong: Disclaimer
+  - paragraph: The Coverage Maps Service is provided “as is” and without any warranty of any kind, and may consist of material collected from various sources, public or otherwise; (ii) GSMA Group, its contributors and licensors have no responsibility for the accuracy, currency or completeness of the materials, content and Coverage Data obtained; (iii) no warranty or representation is given that access to the Coverage Maps Service (or any part thereof) will be uninterrupted or error free, correct or up-to-date; (iv) GSMA is an aggregator and provider of information (including opinions) for general information purposes only and do not provide financial, tax and accounting or other professional advice; (v) GSMA does not warrant or accept any responsibility for the correctness, merchantability, availability, quality, fitness for any particular purpose, or any third party rights, claims and encumbrances in relation to the Coverage MapsService; (vi) GSMA reserves the right to change or withdraw the Coverage Maps Service
+  - paragraph:
+    - strong: "Online resources:"
+  - paragraph:
+    - link "GMSA's Network Coverage Maps Website":
+      - /url: https://www.gsma.com/coverage/#457
+  - paragraph:
+    - strong: Organization
+    - text: ":"
+    - link "Global System for Mobile Communications Association (GSMA)":
+      - /url: https://data.apps.fao.org/catalog/organization/gsma
+  - paragraph:
+    - link "alt":
+      - /url: https://data.apps.fao.org/catalog/organization/gsma
+      - img "alt"
+  - paragraph:
+    - strong: License
+    - text: ": License not specified"
+  - paragraph:
+    - strong: Resource
+    - text: ":"
+    - link "fao-gismgr/CBD/maps/MBC-2026-5KM":
+      - /url: https://data.apps.fao.org/map/wmts/wmts?layer=fao-gismgr/CBD/maps/MBC-2026-5KM&tilematrixset=EPSG:900913&Service=WMTS&request=GetTile&Version=1.0.0&Format=image/png&TileMatrix=%7Bz%7D&TileCol=%7By%7D&TileRow=%7Bx%7D&layertype=Image
+  - paragraph: Web Map Tile Service for Mobile Broadband Coverage (Global - 5 km) - 2026 Release
+  - paragraph:
+    - strong: Format
+    - text: ": WMTS"
+  - paragraph:
+    - strong: Metadata Link
+    - text: ":"
+    - link "https://data.apps.fao.org/catalog/iso/1cc0f865-9533-4341-b32e-a2a817d3d435":
+      - /url: https://data.apps.fao.org/catalog//iso/1cc0f865-9533-4341-b32e-a2a817d3d435
+  - paragraph: "revised: 2026-06-08T11:41:36.367511"
+  - paragraph: Data Custodian
+  - paragraph: FAO CSI
+  - paragraph:
+    - generic: Web Map Tile Service (WMTS) URL
+  - 'link "https://data.apps.fao.org/map/wmts/wmts?layer=fao-gismgr/CBD/maps/MBC-2026-5KM&amp;tilematrixset=EPSG:900913&amp;Service=WMTS&amp;request=GetTile&amp;Version=1.0.0&amp;Format=image/png&amp;TileMatrix={z}&amp;TileCol={y}&amp;TileRow={x}&amp;layertype=Image"':
+    - /url: "https://data.apps.fao.org/map/wmts/wmts?layer=fao-gismgr/CBD/maps/MBC-2026-5KM&amp;tilematrixset=EPSG:900913&amp;Service=WMTS&amp;request=GetTile&amp;Version=1.0.0&amp;Format=image/png&amp;TileMatrix={z}&amp;TileCol={y}&amp;TileRow={x}&amp;layertype=Image"
+    - generic: "https://data.apps.fao.org/map/wmts/wmts?layer=fao-gismgr/CBD/maps/MBC-2026-5KM&amp;tilematrixset=EPSG:900913&amp;Service=WMTS&amp;request=GetTile&amp;Version=1.0.0&amp;Format=image/png&amp;TileMatrix={z}&amp;TileCol={y}&amp;TileRow={x}&amp;layertype=Image"
+  - paragraph: Metadata URL
+  - link "https://data.apps.fao.org/map/wmts/wmts?service=WMTS&request=GetCapabilities&version=1.0.0":
+    - /url: https://data.apps.fao.org/map/wmts/wmts?service=WMTS&request=GetCapabilities&version=1.0.0
+    - generic: https://data.apps.fao.org/map/wmts/wmts?service=WMTS&request=GetCapabilities&version=1.0.0
+  - button:
+  - text: Data Source Details
+  - button:
+  - text: Data Service Details
+  - button "Close":
+    - img "Close": 

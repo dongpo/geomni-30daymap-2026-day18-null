@@ -1,0 +1,20 @@
+{
+  "exported_objects": 84529,
+  "road_lines": 43223,
+  "excluded": {
+    "Point": 41279,
+    "MultiPolygon": 27
+  },
+  "simplification_degrees": 0.00015,
+  "scope": [
+    "motorway",
+    "motorway_link",
+    "primary",
+    "primary_link",
+    "secondary",
+    "secondary_link",
+    "trunk",
+    "trunk_link"
+  ],
+  "source_file": "outputs/day11-spatial-v4/source/taiwan-261109.osm.pbf"
+}

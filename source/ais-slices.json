@@ -1,0 +1,94 @@
+{
+  "slices": [
+    {
+      "sliceId": 0,
+      "multidimensionalDefinition": [
+        {
+          "variableName": "Vessel_Presence",
+          "dimensionName": "StdTime",
+          "values": [
+            [
+              1577836800000.0,
+              1609459199914.0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "sliceId": 1,
+      "multidimensionalDefinition": [
+        {
+          "variableName": "Vessel_Presence",
+          "dimensionName": "StdTime",
+          "values": [
+            [
+              1609459200000.0,
+              1640995199914.0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "sliceId": 2,
+      "multidimensionalDefinition": [
+        {
+          "variableName": "Vessel_Presence",
+          "dimensionName": "StdTime",
+          "values": [
+            [
+              1640995200000.0,
+              1672531199914.0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "sliceId": 3,
+      "multidimensionalDefinition": [
+        {
+          "variableName": "Vessel_Presence",
+          "dimensionName": "StdTime",
+          "values": [
+            [
+              1672531200000.0,
+              1704067199914.0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "sliceId": 4,
+      "multidimensionalDefinition": [
+        {
+          "variableName": "Vessel_Presence",
+          "dimensionName": "StdTime",
+          "values": [
+            [
+              1704067200000.0,
+              1735689599914.0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "sliceId": 5,
+      "multidimensionalDefinition": [
+        {
+          "variableName": "Vessel_Presence",
+          "dimensionName": "StdTime",
+          "values": [
+            [
+              1735689600000.0,
+              1767139200000.0
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

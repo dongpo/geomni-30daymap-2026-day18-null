@@ -1,0 +1,171 @@
+
+{
+  "currentVersion" : 12, 
+  "name" : "vessel_presence_hours_yearly_v02", 
+  "serviceDescription" : "", 
+  "description" : "", 
+  "type" : "ImageServer", 
+  "capabilities" : "Image,TilesOnly", 
+  "copyrightText" : "", 
+  "serviceItemId" : "b832e4748e4c4d2085bd257984e81e22", 
+  "meanPixelSize" : 1113.1949079327358, 
+  "server" : "rUSNqhFNeFnLs98e", 
+  "created" : null, 
+  "modified" : null, 
+  "status" : "created", 
+  "access" : "SECURE", 
+  "allowAnalysis" : true, 
+  "allowCopy" : false, 
+  "serviceSourceType" : "esriImageServiceSourceTypeDataset", 
+  "spatialReference" : {
+    "wkid" : 4326, 
+    "latestWkid" : 4326
+  }, 
+  "extent" : {
+    "xmin" : -179.99999999999997, 
+    "ymin" : -90, 
+    "xmax" : 180.00000000000003, 
+    "ymax" : 90, 
+    "spatialReference" : {
+      "wkid" : 4326, 
+      "latestWkid" : 4326
+    }
+  }, 
+  "initialExtent" : {
+    "xmin" : -179.99999999999997, 
+    "ymin" : -90, 
+    "xmax" : 180.00000000000003, 
+    "ymax" : 90, 
+    "spatialReference" : {
+      "wkid" : 4326, 
+      "latestWkid" : 4326
+    }
+  }, 
+  "fullExtent" : {
+    "xmin" : -179.99999999999997, 
+    "ymin" : -90, 
+    "xmax" : 180.00000000000003, 
+    "ymax" : 90, 
+    "spatialReference" : {
+      "wkid" : 4326, 
+      "latestWkid" : 4326
+    }
+  }, 
+  "datasetFormat" : "Cache/LERC2D", 
+  "compressionType" : "LERC", 
+  "uncompressedSize" : 2592000000, 
+  "bsq" : false, 
+  "pixelSizeX" : 0.01, 
+  "pixelSizeY" : 0.01, 
+  "blockWidth" : 256, 
+  "blockHeight" : 256, 
+  "bandCount" : 1, 
+  "bandNames" : [], 
+  "pixelType" : "F32", 
+  "minPixelSize" : 0.01, 
+  "maxPixelSize" : 1.28, 
+  "minScale" : 537936951.630507, 
+  "maxScale" : 4202632.43461333, 
+  "serviceDataType" : "esriImageServiceDataTypeGeneric", 
+  "minValues" : [
+    
+  ], 
+  "maxValues" : [
+    
+  ], 
+  "meanValues" : [
+    
+  ], 
+  "stdvValues" : [
+    
+  ], 
+  "objectIdField" : "", 
+  "fields" : [
+    
+  ], 
+  "defaultMosaicMethod" : "", 
+  "allowedMosaicMethods" : "", 
+  "sortField" : "", 
+  "sortValue" : null, 
+  "sortAscending" : true, 
+  "singleFusedMapCache" : true, 
+  "tileInfo" : {
+    "rows" : 256, 
+    "cols" : 256, 
+    "dpi" : 96, 
+    "preciseDpi" : 96, 
+    "format" : "LERC2D", 
+    "storageFormat" : "esriMapCacheStorageModeCompactV2", 
+    "packetSize" : 16, 
+    "compressionQuality" : 0, 
+    "antialiasing" : false, 
+    "origin" : {
+      "x" : -180, 
+      "y" : 90
+    }, 
+    "spatialReference" : {
+      "wkid" : 4326, 
+      "latestWkid" : 4326
+    }, 
+    "lods" : [{
+        "level" : 0, 
+        "resolution" : 1.28, 
+        "scale" : 537936951.630507
+      }, 
+      {
+        "level" : 1, 
+        "resolution" : 0.64, 
+        "scale" : 268968475.815253
+      }, 
+      {
+        "level" : 2, 
+        "resolution" : 0.32, 
+        "scale" : 134484237.907627
+      }, 
+      {
+        "level" : 3, 
+        "resolution" : 0.16, 
+        "scale" : 67242118.9538133
+      }, 
+      {
+        "level" : 4, 
+        "resolution" : 0.08, 
+        "scale" : 33621059.4769067
+      }, 
+      {
+        "level" : 5, 
+        "resolution" : 0.04, 
+        "scale" : 16810529.7384533
+      }, 
+      {
+        "level" : 6, 
+        "resolution" : 0.02, 
+        "scale" : 8405264.86922667
+      }, 
+      {
+        "level" : 7, 
+        "resolution" : 0.01, 
+        "scale" : 4202632.43461333
+      }
+    ]
+  }, 
+  "cacheType" : "Raster", 
+  "allowRasterFunction" : false, 
+  "hasHistograms" : false, 
+  "hasColormap" : false, 
+  "hasRasterAttributeTable" : false, 
+  "exportTilesAllowed" : false, 
+  "maxExportTilesCount" : 100000, 
+  "hasMultidimensions" : true, 
+  "timeInfo" : {
+    "startTimeField" : "StdTime", 
+    "endTimeField" : "StdTime", 
+    "timeExtent" : [
+      1577836800000, 
+      1767139200000
+    ], 
+    "timeReference" : null, 
+    "defaultTimeInterval" : 365, 
+    "defaultTimeIntervalUnits" : "esriTimeUnitsDays"
+  }
+}

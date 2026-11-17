@@ -1,0 +1,22 @@
+{
+  "year": 2024,
+  "slice_id": 4,
+  "tiles": 12,
+  "shape": [
+    1024,
+    768
+  ],
+  "bounds": [
+    116.96,
+    18.32,
+    124.64,
+    28.56
+  ],
+  "valid_cells": 333619,
+  "positive_cells": 333154,
+  "valid_zero_cells": 465,
+  "nodata_cells": 452813,
+  "max_value": 63980.828125,
+  "source_grid_degrees": 0.01,
+  "display": "log1p saturation at 1000; valid-zero and NoData both visually transparent, never interpreted as no ships or no mobile signal"
+}
