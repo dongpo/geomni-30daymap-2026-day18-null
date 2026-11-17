@@ -1,3 +1,5 @@
+目前版本：臺灣陸域；已移除AIS圖層與陸海對比。歷史資料保留供追溯。
+
 Day18 — NULL｜連線的空白，還是資料的空白？
 公開專案（依使用者授權）。Facebook文案尚未批准，已啟用GitHub Pages。
 互動地圖：https://dongpo.github.io/geomni-30daymap-2026-day18-null/

@@ -1,0 +1,41 @@
+Day18 NULL — 連線的空白，還是資料的空白？
+2026-11-17 / FAO訊號背景疊合版，供本機審稿。未公開部署。
+
+1. 已取得：OSM 臺灣主要道路
+既有 Geofabrik taiwan-261109.osm.pbf，抽取 motorway/trunk/primary/secondary 及 links。
+osmium 匯出含參照節點共84,529物件；篩除點與面後保留43,223條指定道路線形，通過幾何有效性檢查。不能把參照節點算成道路數。顯示版以 0.00015 度容差簡化；保留原始輸出，不是完整所有道路。
+來源：https://download.geofabrik.de/asia/taiwan.html
+授權：© OpenStreetMap contributors，ODbL，https://www.openstreetmap.org/copyright
+
+2. 已取得：Global Fishing Watch AIS Vessel Presence (Yearly)
+官方 ArcGIS 項目 b832e4748e4c4d2085bd257984e81e22。
+https://www.arcgis.com/home/item.html?id=b832e4748e4c4d2085bd257984e81e22
+ImageServer: https://tiledimageservices7.arcgis.com/rUSNqhFNeFnLs98e/arcgis/rest/services/vessel_presence_hours_yearly_v02/ImageServer
+slices 核對 sliceId=4，2024 年；level 7 解析度 0.01 度，12 張 256×256 LERC 圖磚。
+範圍 116.96–124.64E，18.32–28.56N。LERC 解碼保留 valid mask、有效零值與 NoData；QA 見 evidence/ais-qa.json。
+GFW 以每船每小時一個 AIS 位置形成船舶活動資料，含衛星及地面接收，非僅漁船。
+這是活動網格，不是逐船軌跡，也不是指定航線；不得由它判斷手機訊號，無資料不代表無船。
+圖磚值為浮點數，不稱精確船數或原始 AIS 封包數。視覺採 log1p、1000 飽和顯色；沒有呈現完整量化圖例，僅供活動走廊背景核對。零與 NoData 在活動層透明，但原始遮罩分開保存。
+顯示 PNG 將緯度列轉為 Web Mercator；不是把線性緯度影像直接伸縮貼圖。
+授權：Global Fishing Watch，CC BY-NC 4.0，僅非商業用途；必須署名且不得暗示背書。
+https://creativecommons.org/licenses/by-nc/4.0/
+
+3. 訊號背景：FAO/GSMA Mobile Broadband Coverage (Global - 5 km) - 2026 Release
+已實際從 FAO 平台目錄核對，完整可見內容保存 evidence/fao-catalog-visible.txt。
+原約260m資料彙整至5km比例，資料截至2025年底。GSMA業者資料與OpenCellID推估，並非全區訊號實測。
+重要：metadata 同時將0描述為 no detected coverage 與 no-data，不能可靠區分零與缺值。
+授權欄 License not specified，資源限制描述 GSMA 專有與對 FAO 的有限授權，不據此認為公眾可重製再散布。本版依使用者指示以官方線上服務作背景，保留署名，不另打包圖磚；公開再利用授權仍待核。
+https://data.apps.fao.org/catalog/iso/1cc0f865-9533-4341-b32e-a2a817d3d435
+
+4. 圖面解讀
+業者查詢圖多為室外涵蓋模擬，未取得可重製且能區分無涵蓋與未知的完整臺灣陸海資料。
+尚無可驗證的「無訊號」面；也沒有將未測試區、AIS空白或距基地台遠處假設為沒訊號。
+本版疊合官方FAO涵蓋背景與陸海活動，呈現資料顯示涵蓋與未顯示涵蓋的位置關係。不是實測斷訊地圖；文章待圖面審核。
+
+陸地輪廓：Natural Earth 1:110m，公共領域，概括輪廓不適合海岸定位，小島可能省略；https://www.naturalearthdata.com/about/terms-of-use/ 。陸地、道路與AIS由本機讀取；FAO背景需連網。
+技術：osmium、Python/Shapely、LERC 4.0.1、NumPy、Pillow、Leaflet。
+原始資料、解碼遮罩、處理結果與程式均保存。本版沒有取代 outputs/day18-null-v1 歷史 PLATEAU 候選，但該候選已不再是目前選題。
+
+臺灣陸地另疊加 NLSC 縣市界 dataset7442，政府資料開放授權條款第1版；沿用 Day11 已核對產物（原始 Day09 ZIP），WGS84 / 0.001度拓樸保留簡化。地圖不是航海底圖。https://data.gov.tw/dataset/7442
+
+2026-11-17 使用者最新修訂：FAO作訊號背景，限制以資料說明呈現，不因零/缺值無法區分而停做。本版直接讀取官方WMTS、保留原始顯色，未下載打包圖磚供公開再散布。只供本機審稿；公開再利用權限仍待核。修正已失效的EPSG:900913 tilematrixset為服務接受的WebMercatorQuad，補style=default。載入失敗單獨顯示，絕不當作無涵蓋。前文第三、四節是v2歷史核對狀態，本修訂取代「未加入背景」決策。
