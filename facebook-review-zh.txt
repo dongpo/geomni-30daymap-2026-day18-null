@@ -20,6 +20,9 @@ AIS 能讓我們知道船舶曾經在哪裡活動，卻不代表船上的手機�
 
 對我而言，這次地理資訊實作最值得留下的，不只是把三份資料疊在一起，而是讓讀者看見：有活動、有紀錄、有連線，並不是同一件事。NULL 也不只是等待填滿的空格；有時候，保留「我們還不知道」，才是地圖應該傳達的資訊。
 
+🗺️ 互動地圖：
+https://dongpo.github.io/geomni-30daymap-2026-day18-null/
+
 資料：FAO／GSMA／OpenCellID；Global Fishing Watch；OpenStreetMap；國土測繪中心；Natural Earth。
 技術：Leaflet、Python、osmium、LERC 解碼與 Web Mercator 顯示轉換。
 © GSMA Coverage Maps Service 2026。Global Fishing Watch 衍生資料依 CC BY-NC 4.0 使用；OSM 依 ODbL 使用。
